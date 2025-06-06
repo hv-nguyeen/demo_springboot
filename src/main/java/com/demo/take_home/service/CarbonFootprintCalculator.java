@@ -53,7 +53,12 @@ public class CarbonFootprintCalculator {
 
     private static double emissionAtGivenHour(Appliance inputAppliance, int givenHour) {
         Map<Integer, Integer> regionMap = CarbonIntensityStorage.getInstance().getRegionMap(House.getInstance().getRegionName());
-        return inputAppliance.getPowerConsumption() * regionMap.get(givenHour);
+        Integer intensity = regionMap.get(givenHour);
+        if (intensity == null) {
+            System.err.println("Warning: No carbon intensity data for hour: " + givenHour);
+            return 0;
+        }
+        return inputAppliance.getPowerConsumption() * intensity;
     }
 
 
