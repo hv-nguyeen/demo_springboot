@@ -29,5 +29,5 @@ curl -X PUT "http://localhost:8080/api/modify/appliance" \
 
 # delete the appliance
 curl -X DELETE "http://localhost:8080/api/delete/appliance?roomName=LivingRoom&applianceModel=test123"
-
+# Example run terminal image
 ![img.png](img.png)
