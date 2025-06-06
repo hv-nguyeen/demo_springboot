@@ -1,0 +1,290 @@
+[
+  {
+    "model": "SAMSUNG-WW80",
+    "embodiedEmissions": 100,
+    "type": "WASHING_MACHINE",
+    "powerConsumption": 0.5,
+    "mode": "HOURLY",
+    "startTime": 8,
+    "endTime": 9
+  },
+  {
+    "model": "Whirlpool-7469",
+    "embodiedEmissions": 180,
+    "type": "WASHING_MACHINE",
+    "powerConsumption": 1.0,
+    "mode": "HOURLY",
+    "startTime": 9,
+    "endTime": 10
+  },
+  {
+    "model": "Panasonic-NAF80",
+    "embodiedEmissions": 190,
+    "type": "WASHING_MACHINE",
+    "powerConsumption": 0.7,
+    "mode": "HOURLY",
+    "startTime": 10,
+    "endTime": 11
+  },
+  {
+    "model": "LG-ECO",
+    "embodiedEmissions": 120,
+    "type": "WASHING_MACHINE",
+    "powerConsumption": 0.6,
+    "mode": "HOURLY",
+    "startTime": 11,
+    "endTime": 12
+  },
+  {
+    "model": "BOSCH-KGN3",
+    "embodiedEmissions": 200,
+    "type": "FRIDGE",
+    "powerConsumption": 0.62,
+    "mode": "ALWAYS_ON",
+    "startTime": 0,
+    "endTime": 23
+  },
+  {
+    "model": "MIELE-K4003",
+    "embodiedEmissions": 160,
+    "type": "FRIDGE",
+    "powerConsumption": 0.39,
+    "mode": "ALWAYS_ON",
+    "startTime": 0,
+    "endTime": 23
+  },
+  {
+    "model": "SAMSUNG-RB34",
+    "embodiedEmissions": 220,
+    "type": "FRIDGE",
+    "powerConsumption": 0.45,
+    "mode": "ALWAYS_ON",
+    "startTime": 0,
+    "endTime": 23
+  },
+  {
+    "model": "Wisberg",
+    "embodiedEmissions": 120,
+    "type": "FRIDGE",
+    "powerConsumption": 0.40,
+    "mode": "ALWAYS_ON",
+    "startTime": 0,
+    "endTime": 23
+  },
+  {
+    "model": "SIEMENS-iQ300",
+    "embodiedEmissions": 150,
+    "type": "OVEN",
+    "powerConsumption": 1.12,
+    "mode": "HOURLY",
+    "startTime": 12,
+    "endTime": 13
+  },
+  {
+    "model": "SHARP-R971",
+    "embodiedEmissions": 75,
+    "type": "OVEN",
+    "powerConsumption": 1.2,
+    "mode": "HOURLY",
+    "startTime": 13,
+    "endTime": 14
+  },
+  {
+    "model": "BOSCH-HBA",
+    "embodiedEmissions": 300,
+    "type": "OVEN",
+    "powerConsumption": 2.0,
+    "mode": "HOURLY",
+    "startTime": 14,
+    "endTime": 15
+  },
+  {
+    "model": "ETNA-CM250ZT",
+    "embodiedEmissions": 220,
+    "type": "OVEN",
+    "powerConsumption": 1.5,
+    "mode": "HOURLY",
+    "startTime": 15,
+    "endTime": 16
+  },
+  {
+    "model": "SAMSUNG-QLED",
+    "embodiedEmissions": 50,
+    "type": "TELEVISION",
+    "powerConsumption": 0.15,
+    "mode": "HOURLY",
+    "startTime": 16,
+    "endTime": 17
+  },
+  {
+    "model": "Sony-BRAVIA",
+    "embodiedEmissions": 80,
+    "type": "TELEVISION",
+    "powerConsumption": 0.18,
+    "mode": "HOURLY",
+    "startTime": 17,
+    "endTime": 18
+  },
+  {
+    "model": "Panasonic-TX",
+    "embodiedEmissions": 110,
+    "type": "TELEVISION",
+    "powerConsumption": 0.13,
+    "mode": "HOURLY",
+    "startTime": 18,
+    "endTime": 19
+  },
+  {
+    "model": "LG-OLEDC3",
+    "embodiedEmissions": 95,
+    "type": "TELEVISION",
+    "powerConsumption": 0.12,
+    "mode": "HOURLY",
+    "startTime": 19,
+    "endTime": 20
+  },
+  {
+    "model": "AEG-7000",
+    "embodiedEmissions": 120,
+    "type": "DISHWASHER",
+    "powerConsumption": 0.7,
+    "mode": "HOURLY",
+    "startTime": 20,
+    "endTime": 21
+  },
+  {
+    "model": "BOSCH-SMV",
+    "embodiedEmissions": 104,
+    "type": "DISHWASHER",
+    "powerConsumption": 0.65,
+    "mode": "HOURLY",
+    "startTime": 21,
+    "endTime": 22
+  },
+  {
+    "model": "Amica-ADF",
+    "embodiedEmissions": 100,
+    "type": "DISHWASHER",
+    "powerConsumption": 0.8,
+    "mode": "HOURLY",
+    "startTime": 22,
+    "endTime": 23
+  },
+  {
+    "model": "MIELE-5056",
+    "embodiedEmissions": 180,
+    "type": "DISHWASHER",
+    "powerConsumption": 0.6,
+    "mode": "HOURLY",
+    "startTime": 23,
+    "endTime": 24
+  },
+  {
+    "model": "LG-AV4N",
+    "embodiedEmissions": 180,
+    "type": "DRYER",
+    "powerConsumption": 3.0,
+    "mode": "HOURLY",
+    "startTime": 8,
+    "endTime": 9
+  },
+  {
+    "model": "MIELE-Steam",
+    "embodiedEmissions": 100,
+    "type": "DRYER",
+    "powerConsumption": 1.8,
+    "mode": "HOURLY",
+    "startTime": 9,
+    "endTime": 10
+  },
+  {
+    "model": "Beko-SteamCure",
+    "embodiedEmissions": 150,
+    "type": "DRYER",
+    "powerConsumption": 2.2,
+    "mode": "HOURLY",
+    "startTime": 10,
+    "endTime": 11
+  },
+  {
+    "model": "Whirlpool-W6D8",
+    "embodiedEmissions": 160,
+    "type": "DRYER",
+    "powerConsumption": 2.5,
+    "mode": "HOURLY",
+    "startTime": 11,
+    "endTime": 12
+  },
+  {
+    "model": "SAMSUNG-C12",
+    "embodiedEmissions": 300,
+    "type": "AIR_CONDITIONING",
+    "powerConsumption": 4.0,
+    "mode": "HOURLY",
+    "startTime": 12,
+    "endTime": 13
+  },
+  {
+    "model": "Lennox",
+    "embodiedEmissions": 250,
+    "type": "AIR_CONDITIONING",
+    "powerConsumption": 3.5,
+    "mode": "HOURLY",
+    "startTime": 13,
+    "endTime": 14
+  },
+  {
+    "model": "Daikin-FTXM",
+    "embodiedEmissions": 280,
+    "type": "AIR_CONDITIONING",
+    "powerConsumption": 3.8,
+    "mode": "HOURLY",
+    "startTime": 14,
+    "endTime": 15
+  },
+  {
+    "model": "Mitsubishi-VRF",
+    "embodiedEmissions": 320,
+    "type": "AIR_CONDITIONING",
+    "powerConsumption": 4.2,
+    "mode": "HOURLY",
+    "startTime": 15,
+    "endTime": 16
+  },
+  {
+    "model": "LG-CordZero",
+    "embodiedEmissions": 220,
+    "type": "VACUUM_CLEANER",
+    "powerConsumption": 1.5,
+    "mode": "HOURLY",
+    "startTime": 16,
+    "endTime": 17
+  },
+  {
+    "model": "Dyson-V11",
+    "embodiedEmissions": 60,
+    "type": "VACUUM_CLEANER",
+    "powerConsumption": 1.0,
+    "mode": "HOURLY",
+    "startTime": 17,
+    "endTime": 18
+  },
+  {
+    "model": "Xiaomi-E5",
+    "embodiedEmissions": 120,
+    "type": "VACUUM_CLEANER",
+    "powerConsumption": 1.4,
+    "mode": "HOURLY",
+    "startTime": 18,
+    "endTime": 19
+  },
+  {
+    "model": "SilverCrest-ROBO",
+    "embodiedEmissions": 80,
+    "type": "VACUUM_CLEANER",
+    "powerConsumption": 1.2,
+    "mode": "HOURLY",
+    "startTime": 19,
+    "endTime": 20
+  }
+]
