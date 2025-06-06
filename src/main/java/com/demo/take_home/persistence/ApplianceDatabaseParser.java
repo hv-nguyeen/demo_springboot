@@ -1,8 +1,9 @@
-package nl.vu.cs.softwaredesign.persistence;
+package com.demo.take_home.persistence;
 
+import com.demo.take_home.domain.Appliance;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import nl.vu.cs.softwaredesign.domain.Appliance;
+
 
 import java.io.FileReader;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package nl.vu.cs.softwaredesign.domain.enums;
+package com.demo.take_home.domain.enums;
 
 public enum ApplianceType {
     FRIDGE,

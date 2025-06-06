@@ -1,7 +1,9 @@
-package nl.vu.cs.softwaredesign.domain;
+package com.demo.take_home.domain;
 
-import nl.vu.cs.softwaredesign.domain.enums.Region;
-import nl.vu.cs.softwaredesign.service.CarbonFootprintCalculator;
+
+
+import com.demo.take_home.domain.enums.Region;
+import com.demo.take_home.service.CarbonFootprintCalculator;
 
 import java.util.ArrayList;
 import java.util.Iterator;

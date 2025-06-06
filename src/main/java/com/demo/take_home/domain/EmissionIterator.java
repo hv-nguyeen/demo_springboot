@@ -1,4 +1,4 @@
-package nl.vu.cs.softwaredesign.domain;
+package com.demo.take_home.domain;
 
 import java.util.Iterator;
 import java.util.List;

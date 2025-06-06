@@ -1,4 +1,4 @@
-package nl.vu.cs.softwaredesign.domain;
+package com.demo.take_home.domain;
 
 public class HouseCaretaker {
     private House.HouseMemento savedState = null;

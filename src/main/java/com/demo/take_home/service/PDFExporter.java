@@ -1,8 +1,9 @@
-package nl.vu.cs.softwaredesign.service;
+package com.demo.take_home.service;
 
-import nl.vu.cs.softwaredesign.domain.Appliance;
-import nl.vu.cs.softwaredesign.domain.House;
-import nl.vu.cs.softwaredesign.domain.Room;
+
+import com.demo.take_home.domain.Appliance;
+import com.demo.take_home.domain.House;
+import com.demo.take_home.domain.Room;
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.pdmodel.PDPage;
 import org.apache.pdfbox.pdmodel.PDPageContentStream;

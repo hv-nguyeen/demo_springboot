@@ -1,10 +1,11 @@
-package nl.vu.cs.softwaredesign.persistence;
+package com.demo.take_home.persistence;
 
+import com.demo.take_home.domain.enums.Region;
 import com.google.gson.Gson;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
-import nl.vu.cs.softwaredesign.domain.enums.Region;
+
 
 import java.io.FileReader;
 import java.util.EnumMap;

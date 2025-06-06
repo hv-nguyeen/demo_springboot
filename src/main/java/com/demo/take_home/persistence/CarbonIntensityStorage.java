@@ -1,6 +1,7 @@
-package nl.vu.cs.softwaredesign.persistence;
+package com.demo.take_home.persistence;
 
-import nl.vu.cs.softwaredesign.domain.enums.Region;
+
+import com.demo.take_home.domain.enums.Region;
 
 import java.util.Collections;
 import java.util.Map;

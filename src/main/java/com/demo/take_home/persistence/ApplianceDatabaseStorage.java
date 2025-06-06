@@ -1,8 +1,10 @@
-package nl.vu.cs.softwaredesign.persistence;
+package com.demo.take_home.persistence;
 
-import nl.vu.cs.softwaredesign.domain.Appliance;
-import nl.vu.cs.softwaredesign.domain.EmissionIterator;
-import nl.vu.cs.softwaredesign.domain.enums.ApplianceType;
+
+
+import com.demo.take_home.domain.Appliance;
+import com.demo.take_home.domain.EmissionIterator;
+import com.demo.take_home.domain.enums.ApplianceType;
 
 import java.util.Iterator;
 import java.util.List;

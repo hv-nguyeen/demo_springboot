@@ -1,8 +1,9 @@
-package nl.vu.cs.softwaredesign.domain;
+package com.demo.take_home.domain;
 
-import nl.vu.cs.softwaredesign.domain.enums.ApplianceType;
-import nl.vu.cs.softwaredesign.domain.enums.UsageMode;
-import nl.vu.cs.softwaredesign.service.CarbonFootprintCalculator;
+
+import com.demo.take_home.domain.enums.ApplianceType;
+import com.demo.take_home.domain.enums.UsageMode;
+import com.demo.take_home.service.CarbonFootprintCalculator;
 
 public class Appliance implements Emissions {
     private String model;

@@ -1,13 +1,15 @@
-package nl.vu.cs.softwaredesign.application;
+package com.demo.take_home.application;
 
-import nl.vu.cs.softwaredesign.domain.Appliance;
-import nl.vu.cs.softwaredesign.domain.House;
-import nl.vu.cs.softwaredesign.domain.Room;
-import nl.vu.cs.softwaredesign.domain.enums.Region;
+import com.demo.take_home.domain.Appliance;
+import com.demo.take_home.domain.House;
+import com.demo.take_home.domain.Room;
+import com.demo.take_home.domain.enums.Region;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@Service
 public class HouseFacade {
     private final House house;
 
@@ -57,7 +59,6 @@ public class HouseFacade {
         return deepCopy;
     }
 
-
     public boolean addApplianceToRoom(String roomName, Appliance inputAppliance) {
         Room room = house.getRoom(roomName);
         if (room != null) {
@@ -92,7 +93,6 @@ public class HouseFacade {
         }
         return null;
     }
-
 
     public double calculateHouseCF() {
         return house.calculateCF();

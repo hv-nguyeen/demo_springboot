@@ -1,4 +1,4 @@
-package nl.vu.cs.softwaredesign.domain.enums;
+package com.demo.take_home.domain.enums;
 
 public enum Region {
     NL("./src/main/java/nl/vu/cs/softwaredesign/resources/netherlandsCarbonIntensity.json"),
